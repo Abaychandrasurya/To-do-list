@@ -1,0 +1,72 @@
+body {
+    background-image: url('background.jpg');
+    background-size: cover;
+    background-position: center;
+    background-repeat: repeat;
+    color: #fffffffd;
+    font-family: Arial, sans-serif;
+}
+
+.container {
+    background-color: rgba(215, 222, 215, 0.7);
+    border-radius: 20px;
+    padding: 20px;
+    max-width: 70%;
+    margin: 50px auto;
+}
+
+.italian-heading {
+    font-family: 'Caveat', cursive;
+    font-size: 2.5rem;
+    color: #020110;
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.thoughts {
+    font-size: 1.2em;
+    color: #040361ba;
+    margin-bottom: 20px;
+    text-align: center;
+}
+
+.row {
+    display: flex;
+    justify-content: space-between;
+}
+
+.col-6 {
+    width: 48%;
+}
+
+.input-group {
+    margin-bottom: 10px;
+}
+
+.btn-primary {
+    background-color: #24d54a;
+    border-color: #0c0602;
+    border-radius: 30px;
+    width: 50%;
+}
+
+.btn-primary:hover {
+    background-color: #d7671d;
+    border-color: #0c0501;
+}
+
+h4 {
+    margin-bottom: 30px;
+    color: #c20000;
+}
+
+#my-task-list {
+    max-height: 400px;
+    overflow-y: auto;
+}
+
+.list-group-item {
+    background-color: rgba(255, 255, 255, 0.1);
+    border-color: #000000;
+    color: #000000;
+}

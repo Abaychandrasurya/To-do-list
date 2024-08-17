@@ -1,0 +1,27 @@
+{
+  "name": "to-do-list",
+  "version": "1.0.0",
+  "description": "managing task along with time",
+  "scripts": {
+    "start": "parcel index.html",
+    "build": "parcel build index.html",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Abaychandrasurya/To-do-list.git"
+  },
+  "bugs": {
+    "url": "https://github.com/Abaychandrasurya/To-do-list/issues"
+  },
+  "type": "module",
+  "homepage": "https://github.com/Abaychandrasurya/To-do-list#readme",
+  "devDependencies": {
+    "parcel": "^2.12.0"
+  },
+  "dependencies": {
+    "airtable": "^0.12.2"
+  }
+}
